@@ -307,9 +307,9 @@ input[type=submit] {
     -webkit-rtl-ordering: logical;
     cursor: text;
     background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-    margin-top: 0.5em;
+    margin-top: 1rem;
     padding: 0.35rem 1.0rem;
-    width: 100%;
+    width: 5rem;
     border-radius: 1rem;
     border-width: 0.4rem;
     border-style: double;
