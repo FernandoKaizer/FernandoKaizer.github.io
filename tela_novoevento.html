@@ -13,22 +13,23 @@
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+            <script src="js/script.js"></script>
         </head>
         <body>
             <header>
                 <h1>
                     Novo Evento
                 </h1>
-                <a class="voltar" href="tela_agenda.html">
+                <a class="voltar button" href="tela_agenda.html">
                     <img src="icones/seta.png"alt="figmes" height="45" width="45">
                 </a>
             </header>
             <main>
                 <ul class="coluna_meio">
                     <ul class="text-block">
-                        <li>Nome do Evento: <input type="text" value="Digite aqui"/></li>
-                        <li>Data do Evento: <input type="text" value="xx/xx/xxxx"/></li>
-                        <li>Data do Evento: <input type="text" value="xx:xx"/></li>
+                        <li>Nome do Evento: <input type="text"/></li>
+                        <li>Data do Evento: <input type="date"/></li>
+                        <li>Horário do Evento: <input type="time"/></li>
                         <li><input class="buttom" type="submit" value="Enviar"/></li>
                     </ul>
                 </ul>
