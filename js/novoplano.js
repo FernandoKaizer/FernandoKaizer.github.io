@@ -1,25 +1,24 @@
-
-
 document.addEventListener('DOMContentLoaded', function() {
 
-    let numero = document.querySelector('input[type="number"]')
-    let texto = document.querySelector('input[type="text"]')
+    let textos = document.querySelector('input[type="text"]')
+    let data = document.querySelector('input[type="date"]')
+
 
     function update() {
         submit = document.querySelector('input[type="submit"]')
 
-        if(texto.value == ''|| numero.value == '') {
+        if(textos.value == '' || data.value == '') {
             submit.disabled = true
         } else {
             submit.disabled = false
         }
     }
 
-    texto.addEventListener('input', function() {
+    textos.addEventListener('input', function() {
         update()
     })
 
-    numero.addEventListener('input', function() {
+    data.addEventListener('input', function() {
         update()
     })
 
