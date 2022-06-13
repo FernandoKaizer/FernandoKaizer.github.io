@@ -176,6 +176,10 @@ h1{
     size: small;
 }
 
+.novoplano{
+    cursor: pointer;
+  }
+
 
 .coluna_meio{
     display: flex;
