@@ -52,7 +52,7 @@ h1{
 }
 
 .borda{
-    display:fixed;
+    display:flex;
     border-style:solid;
     border-width:1px;
     padding: 2rem 5rem;
@@ -172,10 +172,6 @@ h1{
     transform: translateY(6px) translateX(2px);
   }
 
-.agenda{
-    size: small;
-}
-
 .novoplano{
     cursor: pointer;
   }
@@ -253,29 +249,28 @@ a[href] {
   }
 
 
-  .agenda{
-    size: small;
+.agenda{
+    display: flex;
 }
 
 @media only screen and (max-width: 580px) {
     .agenda{
-        width: 4rem;
+        width: 1rem;
     }
   }
+
 
 
   input[type=text] {
     writing-mode: horizontal-tb !important;
     font-family: 'Heebo', sans-serif;
-    font-weight: 1rem;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
     text-transform: none;
-    text-indent: 0px;
-    text-shadow: 10px;
+    text-indent: 0rem;
     display: inline-block;
     text-align: start;
     appearance: auto;
@@ -296,15 +291,13 @@ a[href] {
 input[type=submit] {
     writing-mode: horizontal-tb !important;
     font-family: 'Heebo', sans-serif;
-    font-weight: 1rem;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
     text-transform: none;
-    text-indent: 0px;
-    text-shadow: 10px;
+    text-indent: 0rem;
     display: inline-block;
     text-align: start;
     appearance: auto;
@@ -326,15 +319,13 @@ input[type=submit] {
 input[type=date] {
     writing-mode: horizontal-tb !important;
     font-family: 'Heebo', sans-serif;
-    font-weight: 1rem;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
     text-transform: none;
-    text-indent: 0px;
-    text-shadow: 10px;
+    text-indent: 0rem;
     display: inline-block;
     text-align: start;
     appearance: auto;
@@ -355,15 +346,13 @@ input[type=date] {
 input[type=time] {
     writing-mode: horizontal-tb !important;
     font-family: 'Heebo', sans-serif;
-    font-weight: 1rem;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
     text-transform: none;
-    text-indent: 0px;
-    text-shadow: 10px;
+    text-indent: 0rem;
     display: inline-block;
     text-align: start;
     appearance: auto;
@@ -384,15 +373,13 @@ input[type=time] {
 input[type=number] {
     writing-mode: horizontal-tb !important;
     font-family: 'Heebo', sans-serif;
-    font-weight: 1rem;
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
     word-spacing: normal;
     line-height: normal;
     text-transform: none;
-    text-indent: 0px;
-    text-shadow: 10px;
+    text-indent: 0rem;
     display: inline-block;
     text-align: start;
     appearance: auto;
