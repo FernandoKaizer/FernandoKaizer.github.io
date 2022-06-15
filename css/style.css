@@ -410,7 +410,7 @@ input[type=number] {
     flex-direction: column;
     margin: 0.5rem;
     padding: 0.3rem;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .comentarios2{
@@ -419,7 +419,7 @@ input[type=number] {
     align-items: center;
     margin: 0.1rem;
     padding: 0.1rem;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .titulos2{
@@ -441,6 +441,6 @@ input[type=number] {
     align-items: center;
     margin: 0.1rem;
     padding: 0.1rem;
-    font-weight: bold;
+    font-weight: 900;
     color: rgb(0, 255, 0);
 }
