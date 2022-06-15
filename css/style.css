@@ -255,7 +255,7 @@ a[href] {
 
 @media only screen and (max-width: 580px) {
     .agenda{
-        width: 1rem;
+        width: 4rem;
     }
   }
 
